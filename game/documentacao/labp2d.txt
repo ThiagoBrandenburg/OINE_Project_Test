@@ -1,0 +1,14 @@
+
+LABP2D:
+
+    É uma laboratorio de processamento paralelo e distribuído que tem:
+    Composto de professores e alunos, graduandos e mestrandos
+    Computadores de alto desempenho da udesc
+    Servidores para experimentos e projetos da udesc
+    Open cloud
+    Analise de Segurança
+
+Função:
+    
+
+    

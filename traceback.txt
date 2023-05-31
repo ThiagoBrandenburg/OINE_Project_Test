@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 14, in script
+    scene bg entrada zoom 2.0
+Exception: Image 'bg entrada' does not accept attributes 'zoom 2 .0'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 14, in script
+    scene bg entrada zoom 2.0
+  File "C:\Users\thiag\Documents\RenPy\renpy-8.0.3-sdk\renpy\ast.py", line 1542, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\thiag\Documents\RenPy\renpy-8.0.3-sdk\renpy\ast.py", line 1371, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\thiag\Documents\RenPy\renpy-8.0.3-sdk\renpy\exports.py", line 686, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\thiag\Documents\RenPy\renpy-8.0.3-sdk\renpy\display\image.py", line 414, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\thiag\Documents\RenPy\renpy-8.0.3-sdk\renpy\display\core.py", line 397, in _duplicate
+    args.extraneous()
+  File "C:\Users\thiag\Documents\RenPy\renpy-8.0.3-sdk\renpy\display\core.py", line 265, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'bg entrada' does not accept attributes 'zoom 2 .0'.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.0.3.22090809
+OINE_Project_Test 1.0
+Wed May 31 16:11:28 2023

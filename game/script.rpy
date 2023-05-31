@@ -1,33 +1,34 @@
-﻿# The script of the game goes in this file.
+﻿define s = Character('Sylvie', color="#c8ffc8")
+define m = Character('Me', color="#c8c8ff")
+define ct = Character('Catarina', color="#34eb3a")
+define eu = Character('Eu',color="#ffffff")
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+#Define Images
 
-define e = Character("Eileen")
+image bg entrada:
+    "bg entrada.png"
+    zoom 2.6
 
+image catarina happy ideia:
+    "catarina happy ideia.png"
+    zoom 0.3
 
-# The game starts here.
+#Backgrounds
 
 label start:
+    
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    scene bg entrada
 
-    scene bg room
+    eu "Nossa, é o meu primeiro dia na Udesc, estou ansioso!"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    "Estou curioso para conhecer cada canto dessa Universidade"
 
-    show eileen happy
+    "Mas..."
 
-    # These display lines of dialogue.
+    "Por onde eu começo?"
 
-    e "You've created a new Ren'Py game."
+    show catarina happy ideia at right
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
-    return
+    ct "Saia daqui imediatamente se quer manter sua sanidade!"
+    
