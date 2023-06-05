@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 12: expected '=' not found.
-    image catarina happy
-                        ^
+File "game/script.rpy", line 94: expected statement.
+    "Primeiro Andar":
+                    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed May 31 16:19:54 2023
+Mon Jun  5 16:42:38 2023
