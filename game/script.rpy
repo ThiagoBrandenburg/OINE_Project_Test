@@ -20,7 +20,6 @@ image bg andar1:
 #Backgrounds
 
 label start:
-    
 
     scene bg entrada
 
@@ -35,9 +34,11 @@ label start:
     show catarina happy ideia at right
 
     #ct "Saia daqui imediatamente se quer manter sua sanidade!"
-    ct "Olá, Meu nome é Catarina, você é CALOURO?"
+    ct "Olá, Meu nome é Catarina, você é calouro"
 
     eu "S-sim?!"
+
+    ""
 
     ct "Não, vc não é, volte imediatamente"
 
