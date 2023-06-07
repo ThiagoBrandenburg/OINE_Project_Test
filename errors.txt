@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 94: expected statement.
-    "Primeiro Andar":
-                    ^
+File "game/script.rpy", line 80: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Laboratório P2D"
+                     ^
 
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Jun  5 16:42:38 2023
+Ren'Py Version: Ren'Py 8.1.0.23051307
+Wed Jun  7 16:17:21 2023
