@@ -3,15 +3,15 @@ ct "Você é calouro de Computação?"
 
 eu "Sim, sou calouro"
 
-ct "Ah! Então você é calouro, eu posso mostrar o partes interssantes do campus para você!"
+ct "Ah! Então você é calouro, eu posso mostrar partes interessantes do campus para você!"
 
 eu "Puxa você pode mesmo? Muito Obrigado"
 
 ct "Sem problemas, primeiro deixe eu te mostrar onde é o nosso bloco da Computação"
 
-"Agora, selecione a opção para ir ao BLOCO L, que é bloco da Computação"
+"Agora, selecione a opção para ir ao BLOCO F, que é bloco da Computação"
 
-"Depois de uma árdua jornada subindo o morro do cct, você chegou ao bloco L"
+"Depois de uma árdua jornada subindo o morro do cct, você chegou ao bloco F"
 
 eu "Nossa, como é difícil chegar aqui"
 
@@ -39,4 +39,13 @@ helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresen
 
 ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" "Então, Helena, pode nos explicar o que se faz aqui?"
 
-helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído" "Essencialmente,"
+helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído"
+
+helena "A principal atividade do laboratório é o gerenciamento de nuvens. Na Nuvem Computacional privada do laboratório, estão hospedados diversos projetos da Universidade"
+
+"Helena aponta para os computadores no fundo da sala"
+
+helena "Aqueles são os servidores, esses servidores são computadores poderosos que são utilizados por alguns projetos da universidade"
+
+
+
