@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 80: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Laboratório P2D"
-                     ^
+File "game/script.rpy", line 238: end of line expected.
+    hl "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído" "Essencialmente,"
+                                        ^
 
-Ren'Py Version: Ren'Py 8.1.0.23051307
-Wed Jun  7 16:17:21 2023
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Mon Jun 12 16:55:38 2023
