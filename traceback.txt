@@ -1,28 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 73, in script
-    if terreo == 0:
-  File "game/script.rpy", line 73, in <module>
-    if terreo == 0:
-NameError: name 'terreo' is not defined
+  File "game/script.rpy", line 121, in script
+    jump RU
+ScriptError: could not find label 'RU'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 73, in script
-    if terreo == 0:
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2133, in execute
-    if renpy.python.py_eval(condition):
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\python.py", line 1153, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 73, in <module>
-    if terreo == 0:
-NameError: name 'terreo' is not defined
+  File "game/script.rpy", line 121, in script
+    jump RU
+  File "C:\Users\06843614930\Documents\renpy-8.1.1-sdk\renpy\ast.py", line 1992, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\06843614930\Documents\renpy-8.1.1-sdk\renpy\script.py", line 1013, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'RU'.
 
-Windows-10-10.0.19041 AMD64
-Ren'Py 8.1.0.23051307
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.1.23060707
 OINE_Project_Test 1.0
-Wed Jun  7 16:23:01 2023
+Mon Jun 12 15:48:07 2023
