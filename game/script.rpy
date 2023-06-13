@@ -24,6 +24,10 @@ image bg entrada:
     zoom 2.6
 
 #Backgrounds
+image segundo_andar:
+    "segundo andar.JPG"
+    zoom 0.588
+
 image colmeia:
     "colmeia.JPG"
     zoom 0.587
@@ -218,6 +222,7 @@ label andar1:
 
 
 label andar2:
+    scene segundo_andar
     "Este é o Segundo Andar"
     if segundo_andar == 0:
         show catarina happy ideia
