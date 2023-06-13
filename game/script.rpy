@@ -19,33 +19,30 @@ image catarina felicidade:
     "catarina happy explaining.png"
     zoom 0.3  
 
-image bg entrada:
-    "bg entrada.png"
-    zoom 2.6
+
 
 #Backgrounds
 image segundo_andar:
-    "segundo andar.JPG"
-    zoom 0.588
+    "segundo andar.png"
+
+image bg entrada:
+    "bg entrada.png"
+    zoom 2.6    
 
 image colmeia:
-    "colmeia.JPG"
-    zoom 0.587
+    "colmeia.png"
 
 image p2d:
     "labP2D.png"
 
 image funcao:
     "funcao.png"
-    zoom 0.45
 
 image bg andar1:
-    "bg andar1.jpg"
-    zoom 0.5
+    "bg andar1.png"
 
 image bg terreo:
-    "bg terreo.JPG"
-    zoom 0.59
+    "bg terreo.png"
 
 image biblioteca:
     "biblioteca.jpg"
