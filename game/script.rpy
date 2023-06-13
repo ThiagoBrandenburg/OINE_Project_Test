@@ -244,7 +244,11 @@ label labp2d:
     
     hl "O LabP2D é um laboratório de processamento paralelo e distribuído" 
     
-    hl "Essencialmente,"
+    hl "A principal atividade do laboratório é o gerenciamento de nuvens. Na Nuvem Computacional privada do laboratório, estão hospedados diversos projetos da Universidade"
+
+    "Helena aponta para os computadores no fundo da sala"
+
+    hl "Aqueles são os servidores, esses servidores são computadores poderosos que são utilizados por alguns projetos da universidade"
     jump terreo
 
 label function:
