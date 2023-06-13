@@ -1,10 +1,1 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/script.rpy", line 238: end of line expected.
-    hl "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído" "Essencialmente,"
-                                        ^
-
-Ren'Py Version: Ren'Py 8.1.1.23060707
-Mon Jun 12 16:55:38 2023
+﻿

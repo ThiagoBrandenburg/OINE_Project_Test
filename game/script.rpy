@@ -24,8 +24,17 @@ image bg entrada:
     zoom 2.6
 
 #Backgrounds
+image colmeia:
+    "colmeia.JPG"
+    zoom 0.587
+
 image p2d:
     "labP2D.png"
+
+image funcao:
+    "funcao.png"
+    zoom 0.45
+
 image bg andar1:
     "bg andar1.jpg"
     zoom 0.5
@@ -33,6 +42,7 @@ image bg andar1:
 image bg terreo:
     "bg terreo.JPG"
     zoom 0.59
+
 image biblioteca:
     "biblioteca.jpg"
     zoom 2.2
@@ -252,10 +262,12 @@ label labp2d:
     jump terreo
 
 label function:
+    scene funcao    
     "função"
     jump terreo
 
 label colmeia:
+    scene colmeia
     "colmeia"
     jump terreo
 
