@@ -1,48 +1,6 @@
-Mon Jun 12 22:26:28 2023
+Tue Jun 13 12:59:29 2023
 Windows-10-10.0.19041
 Ren'Py 8.1.1.23060707
  
 
-Bootstrap to the start of init.init. took 0.09s
-Early init. took 5.05s
-Loader init. took 0.10s
-Loading error handling. took 0.11s
-Loading script. took 2.35s
-Loading save slot metadata. took 0.10s
-Loading persistent. took 0.00s
-Running init code. took 0.24s
-Loading analysis data. took 0.04s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.07s
-Index archives took 0.00s
-Dump and make backups. took 0.12s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.74s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.17s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.05s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.21s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
+Bootstrap to the start of init.init. took 0.04s
