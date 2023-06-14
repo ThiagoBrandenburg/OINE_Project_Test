@@ -89,5 +89,27 @@ ct "Ah o Suporte, neste lugar é muito útil para o Departamento, podemos falar 
 
 supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
 
-ct "O q-que? Nós não estamos aqui para consertar "
+ct "O q-que? Nós não estamos aqui para consertar um PC!"
+
+supochan "..."
+
+ct "..."
+
+eu "..."
+
+supochan "...Impossível"
+
+show catarina angry 
+
+ct "Claro que é possível, só queremos conhecer o Laboratório"
+
+supochan "tem certeza?"
+
+eu "Sim! Eu sou novo na universidade e gostaria de conhecer o espaço"
+
+supochan "Hmmmmmm, se vocês"
+
+supochan
+
+
 
