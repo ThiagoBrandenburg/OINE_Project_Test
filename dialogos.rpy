@@ -48,7 +48,7 @@ helena "A principal atividade do laboratório é o gerenciamento de nuvens. Na N
 helena "Aqueles são os servidores, esses servidores são computadores poderosos que são utilizados por alguns projetos da universidade"
 
 #biblioteca
-bia "Ei, você chegou! Bem-vindo à biblioteca universitária. O que você está achando do lugar?"
+bia "Olá! Bem-vindo à biblioteca universitária. O que você está achando do lugar?"
 
 ct "È realmente impressionante! O ambiente é muito propício para o estudo. E essas estantes cheias de livros e artigos, são incríveis!"
 
@@ -69,3 +69,26 @@ bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles tê
 eu "Isso é realmente quase prático! Ter acesso aos recursos digitais facilita bastante o processo de pesquisa. Estou adorando todas essas facilidades que a biblioteca oferece."
 
 bia "Fico feliz em saber que você está gostando. A biblioteca universitária está aqui para apoiar seus estudos da melhor forma possível. Se precisar de mais alguma informação ou tiver alguma dúvida, é só me chamar. Vamos continuar explorando tudo que essa biblioteca tem a oferecer."
+
+#RU
+ct "Este o restaurante universitário" "Ou RU para os mais íntimos"
+
+eu "Decidi dar uma chance e ver como é. E você, já costuma vir aqui?"
+
+ct "Às vezes, quando estou com pouco tempo entre as aulas ou quando o dinheiro está curto. É uma opção conveniente para matar a fome rapidamente."
+
+eu "Entendi. E como é a comida por aqui?"
+
+ct "Bem, vamos dizer que não é a melhor culinária que já provei, mas pelo menos enche a barriga."
+
+eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
+
+ct "Sim, os preços são bem mais baratos em comparação aos restaurantes próximos. É uma opção econômica para os estudantes, especialmente quando o dinheiro está apertado."
+
+eu "Já é algo então"
+
+ct "Com certeza. Às vezes, é mais uma questão de conveniência do que de qualidade da comida. Afinal, estamos aqui para estudar, não é mesmo?"
+
+eu "Suponho que sim..."
+
+"Voçe decide deixar suas aventuras gastronômicas para outra hora"
