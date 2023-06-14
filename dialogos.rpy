@@ -39,13 +39,55 @@ helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresen
 
 ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" "Então, Helena, pode nos explicar o que se faz aqui?"
 
-helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído"
+helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
 
-helena "A principal atividade do laboratório é o gerenciamento de nuvens. Na Nuvem Computacional privada do laboratório, estão hospedados diversos projetos da Universidade"
+helena "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
 
 "Helena aponta para os computadores no fundo da sala"
 
-helena "Aqueles são os servidores, esses servidores são computadores poderosos que são utilizados por alguns projetos da universidade"
+helena "Aqueles são os servidores, esses servidores são computadores potentes que são utilizados por alguns projetos da universidade"
+
+helena "Projetos de Pesquisa as vezes precisam dessas máquinas para realizar cálculos avançados"
+
+eu "Que Legal, e de que projeto você faz parte Helena?"
+
+helena "."
+
+helena ".."
+
+helena "..."
+
+eu "Hã? Tá tudo bem?"
+
+helena "..."
+
+helena "...eu só faço o site"
+
+eu "Oh"
+
+"Helena parece muito decepcionada a respeito, talvez não seja uma boa ideia fazer mais perguntas"
+
+ct "O-ok, nós deixaremos você trabalhando Helena, vamos conhecer outro local, certo?"
+
+eu "Ah, ok, até mais Helena!"
+
+"Saímos da Sala e voltamos para o corredor do terreo"
 
 
+#Colmeia
+
+ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
+
+pinguim "Olá, eu s"
+
+
+#Suporte
+
+ct "Ah o Suporte, neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
+
+"Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
+
+supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+
+ct "O q-que? Nós não estamos aqui para consertar "
 
