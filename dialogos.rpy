@@ -47,5 +47,25 @@ helena "A principal atividade do laboratório é o gerenciamento de nuvens. Na N
 
 helena "Aqueles são os servidores, esses servidores são computadores poderosos que são utilizados por alguns projetos da universidade"
 
+#biblioteca
+bia "Ei, você chegou! Bem-vindo à biblioteca universitária. O que você está achando do lugar?"
 
+ct "È realmente impressionante! O ambiente é muito propício para o estudo. E essas estantes cheias de livros e artigos, são incríveis!"
 
+bia "Com certeza! E a melhor parte é que você pode levar esses livros para casa. A biblioteca oferece um sistema de empréstimo, então você pode levar os livros que precisar para continuar estudando fora daqui."
+
+eu "Isso é perfeito! Vou poder aproveitar os livros por mais tempo. E esses computadores, posso utilizá-los também?"
+
+bia "Sim, os computadores são disponibilizados para uso dos alunos da UDESC. Eles estão equipados com softwares específicos (as vezes) e acesso à internet para facilitar suas pesquisas e estudos."
+
+eu "Ótimo! Agora sei onde posso fazer minhas pesquisas. E se eu precisar de uma pausa, tem algum lugar para descansar?"
+
+bia "Claro! A biblioteca também oferece áreas de descanso e relaxamento. Há espaços com puffs, onde você pode deitar, ler um livro ou até mesmo dormir um pouco antes de retomar seus estudos."
+
+ct "Descansar um pouco entre as sessões de estudo é fundamental. E além dos livros físicos, eles também têm acervo digital"
+
+bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
+
+eu "Isso é realmente quase prático! Ter acesso aos recursos digitais facilita bastante o processo de pesquisa. Estou adorando todas essas facilidades que a biblioteca oferece."
+
+bia "Fico feliz em saber que você está gostando. A biblioteca universitária está aqui para apoiar seus estudos da melhor forma possível. Se precisar de mais alguma informação ou tiver alguma dúvida, é só me chamar. Vamos continuar explorando tudo que essa biblioteca tem a oferecer."
