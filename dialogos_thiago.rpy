@@ -1,4 +1,6 @@
 
+#ENTRADA
+
 ct "Você é calouro de Computação?"
 
 eu "Sim, sou calouro"
@@ -30,7 +32,8 @@ ct "Os laboratórios abrem processos seletivos periodicamente, mas é interessan
 eu "Vou começar a seguir vários laboratórios!" "Quero visitar um!"
 
 "Qual laboratório vamos escolher?"
-#opcoes
+
+
 #LABP2D
 
 ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
@@ -74,18 +77,21 @@ eu "Ah, ok, até mais Helena!"
 "Saímos da Sala e voltamos para o corredor do terreo"
 
 
-#Colmeia
+#SUPORTE
 
-ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
+ct "Ah! O Suporte é ui neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
 
-pinguim "Olá, eu s"
+"Vocês entram no suporte e se deparam com uma sala de recepção com uma campainha"
 
+eu "Hmmm, acho que devemos apertar a campainha para sermo atendidos"
 
+"Você aperta a campainha"
 
-
-ct "Ah o Suporte, neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
+"(Som genérico de campainha toca)"
 
 "Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
+
+show supochan angry
 
 supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
 
@@ -101,12 +107,71 @@ supochan "...Impossível"
 
 show catarina angry 
 
-ct "Claro que é possível, só queremos conhecer o Laboratório"
+ct "Claro que é possível, só queremos conhecer o Suporte"
+
+show supochan flushed
 
 supochan "tem certeza?"
 
-eu "Sim! Eu sou novo na universidade e gostaria de conhecer o espaço"
+eu "Sim! Eu sou novo na universidade e gostaria de conhecer o espaço!"
 
-supochan "Hmpf, se vocês estão aqui só para ver o laboratório, então talvez "
+show supochan angry
 
-supochan
+supochan "Hmpf, pessoas não autorizadas não podem entrar no suporte!"
+
+show catarina surprised
+
+ct "Ah!"
+
+ct "eu não sabia, peço desculpas, eu achava que podia apresentar o suporte..."
+
+eu "Ah, sem problema, eu queria ver mas se é a regra então não podemos"
+
+ct "Então, vamos conhecer outro laboratório ent-"
+
+show supochan flushed
+
+supochan "...Pera"
+
+"A pessoa com quem estamos falando para estar pensando em alguma solução."
+
+supochan "...E-eu não posso apresentar o suporte, mas posso falar um pouco do que fazemos aqui..."
+
+eu "Você pode? Muito obrigado!"
+
+show supochan proud
+
+supochan "Hmpf, eu sou a Jasmine, e trabalho aqui no suporte, podem perguntar o que quiser!"
+
+"Ela uma atitude estranha, mas parece ser uma boa pessoa "
+
+eu "Olá Jasmine, eu gostaria de saber o que vocês fazem aqui!"
+
+supochan "Aqui no suporte respondemos a chamados que podem ser abertos no HELPDESK no site do cct"
+
+supochan "Se um computador, monitor, teclado ou qualquer equipamento de informática não estiver funcionando corretamente nas salas de aula, vocês podem acionar o suporte"
+
+supochan "Lembrando que o suporte só mexe com equipamentos da Udesc, não fazemos serviços particulares!"
+
+show supochan flushed
+
+supochan "M-Mas se você pedir com jeito e-eu formato seu pc"
+
+eu "Ok..."
+
+"isso está começando a fica estranho, talvez seja uma boa hora de ir embora"
+
+ct "Obrigado pela atenção Jasmine, foi muito bom te conhecer!"
+
+eu "Obrigado, sei que podemos contar com você quando precisarmos!"
+
+supochan "Hehe, podem contar comigo"
+
+"Assim saímos da recepção do suporte"
+
+
+#COLMEIA
+
+ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
+
+pinguim "Olá, eu s"
