@@ -170,8 +170,104 @@ supochan "Hehe, podem contar comigo"
 "Assim saímos da recepção do suporte"
 
 
+#FUNCAO
+'''
+O tema geral é os fundamentos matemáticos da computação, amplamente isso é lógica, 
+teoria de tipos e teoria da computação, mas também abrange coisas como linguagens formais e teoria de linguagens de programação
+É um laboratório de pesquisa, e temos 3 linhas principais de pesquisa: Lógica e Provadores de Teoremas (Karina, mostly), Teoria de Tipos e Compiladores (Cristiano)
+Não temos nenhum projeto de IC rolando no momento, mas tem 4 TCCs, todos da Karina,
+destes 2 são puramente lógica e provadores (meu, Alexandre) 1 é sobre teoria de grafos e verificação de algoritmos (João)
+e 1 é o wildcard do grupo sobre algoritmos de criptografia (Wallace)
+
+'''
+
+ct "Ah! Esse laboratório é o função! O pessoal deste laboratório atua na parte de lógica!"
+
+ct "Admito que não sei muito a respeito, então vai ser interessante para mim também saber o que fazem aqui."
+
+"Chegamos no Função e batemos na porta"
+
+"Uma pessoa de aparência interssante nos recebeu aqui."
+
+show funfox
+
+funfox "Hm? Oh, Catarina, seja bem vinda! E quem seria esse?"
+
+ct "Este aqui é um aluno novo da Computação, deseje boas vindas para ele"
+
+funfox "Olá, Meu nome é Afonso, e faço parte do Função, deseja conhecer o laboratório?"
+
+eu "Sim, o que vocês fazem no laboratório?"
+
+funfox "..."
+
+ct "?"
+
+funfox "...isso...pode demorar um pouco..."
+
+eu "P-Perdão, eu fiz uma pergunta que não devia?"
+
+funfox "Não, não há nada errado na sua pergunta, eu só estou pensando o que fazemos no laboratório..."
+
+show funfox thinking
+
+funfox "..."
+
+"Afonso parece estar pensando muito a respeito de como apresentar o laboratório"
+
+funfox "O função é... um laboratório que estuda fundamentos matemáticos da computação..."
+
+funfox "De forma geral, isso seria lógica."
+
+funfox "No decorrer do curso, você irá fazer várias matérias que se aprofundam em áreas que o laboratório estuda"
+
+funfox "Temos projetos na área de Lógica e provadores de Teoremas, Teoria de Tipos, Compiladores, Linguagens de Programação entre outros"
+
+eu "Eu não sei se entendo muito bem..."
+
+funfox "Não tem problema, você entenderá..."
+
+funfox "..."
+
+funfox "..queira você ou não."
+
+show catarina angry:
+
+ct "EI! Nada de assustar os calouros!"
+
+funfox "Perdão, existe mais alguma pergunta que queiram fazer?"
+
+eu "Hmmmm, bem, quem é que está dormindo ali no canto?"
+
+funfox "Outra pergunta por favor"
+
+eu "errrr...quer saber? Talvez seja melhor visitar outro laboratório, vamos Catarina?"
+
+ct "Ah! Sim claro, vamos"
+
+"Assim saíram catarina e o calouro do Função, com mais dúvidas do que quando entraram"
+
+
 #COLMEIA
 
 ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
 
-pinguim "Olá, eu s"
+"Você e Catarina batem na porta do laboratório e saem atendidos por alguém"
+
+albelha "Hmmm, olá Catarina, quem está junto com você?"
+
+ct "Olá Alberto, ese é um novo aluno do campus, ele gostaria de conhecer os laboratórios!"
+
+albelha "Oh, posso apresentar o Colmeia para vocês."
+
+albelha "Nós somos um laboratório de extensão, com principal objetivo de disseminar o conhecimento e uso de software e hardlivre livres"
+
+eu "Software Livre? O que seria isso?"
+
+albelha "Software Livre é o software que permite ao usuário executar, acessar e modificar códigos fontes e redistribuir cópias do programa"
+
+albelha "Sof"
+
+albelha "Além de projetos internos, o nosso laboratório atua na área de extensão, ministrando aulas e minicursos de diversos temas, visitando escolas e outras universidades"
+
+albelha "Também organizamos caravanas para eventos ligados ao Software Livre"
