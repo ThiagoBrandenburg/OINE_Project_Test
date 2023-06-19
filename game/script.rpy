@@ -4,6 +4,9 @@ define ct = Character('Catarina', color="#34eb3a")
 define eu = Character('Eu',color="#000000")
 define hl = Character('Helena',color="#008cff")
 define bia = Character('Beatriz',color="#ff9100")
+define supochan = Character('Funcionaria do suporte',color="#ff0000")
+define jas = Character('Jasmine',color="#ff0000")
+
 
 #Define Images
 
@@ -12,13 +15,27 @@ image catarina happy ideia:
     "catarina happy ideia.png"
     zoom 0.3
 
-image catarina angery:
+image catarina angry:
     "catarina serious standing.png"
     zoom 0.3    
 
 image catarina felicidade:
     "catarina happy explaining.png"
     zoom 0.3  
+
+image supochan angry:
+    "supochan angry.png"
+    zoom 0.3
+    
+image supochan angry pointing:
+    "supochan angry pointing.png"
+    zoom 0.3
+    
+image supochan flushed:
+    "supochan flushed.png"
+    zoom 0.3
+
+
 
 
 
@@ -33,7 +50,7 @@ image bg entrada:
 image colmeia:
     "colmeia.png"
 
-image p2d:
+image labp2d_bg:
     "labP2D.png"
 
 image funcao:
@@ -56,6 +73,11 @@ image restaurante:
 image placaF:
     "placaF.png"
 
+image suporte dentro:
+    "suporte_dentro.png"
+
+image suporte fora:
+    "suporte_fora.png"
 
 #define flags -> se 0 então nn visitou ainda, se 1 já visitou, pra dar a primeira explicação
 default terreo = 0
@@ -116,7 +138,7 @@ menu d_guarita:
     
         eu "Nossa, como é difícil chegar aqui"
 
-        show catarina angery at right
+        show catarina angry at right
 
         ct "Pois é, nosso campus ainda tem problemas de acessibilidade, mas tenho certeza que algo está será feito a respeito"
 
@@ -232,6 +254,9 @@ label andar2:
         "Auditório":
             jump auditorio
         
+        "Suporte":
+            jump suporte
+
         "Primeiro Andar":
             jump andar1
         
@@ -240,48 +265,53 @@ label andar2:
 
 #salas no terreo
 label labp2d:
-    scene p2d
-    show catarina felicidade at left
+    scene labp2d_bg
+    
     
 
-        ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
 
-        helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
+    helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
 
-        ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" "Então, Helena, pode nos explicar o que se faz aqui?"
+    ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" 
+    ct "Então, Helena, pode nos explicar o que se faz aqui?"
 
-        helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
+    helena "Hmmmmmmm" 
 
-        helena "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
+    helena "Ok, aceitarei essa requisição." 
 
-        "Helena aponta para os computadores no fundo da sala"
+    helena "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
 
-        helena "Aqueles são os servidores, esses servidores são computadores potentes que são utilizados por alguns projetos da universidade"
+    helena "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
 
-        helena "Projetos de Pesquisa as vezes precisam dessas máquinas para realizar cálculos avançados"
+    "Helena aponta para os computadores no fundo da sala"
 
-        eu "Que Legal, e de que projeto você faz parte Helena?"
+    helena "Aqueles são os servidores, esses servidores são computadores potentes que são utilizados por alguns projetos da universidade"
 
-        helena "."
+    helena "Projetos de Pesquisa as vezes precisam dessas máquinas para realizar cálculos avançados"
 
-        helena ".."
+    eu "Que Legal, e de que projeto você faz parte Helena?"
 
-        helena "..."
+    helena "."
 
-        eu "Hã? Tá tudo bem?"
+    helena ".."
 
-        helena "..."
+    helena "..."
 
-        helena "...eu só faço o site"
+    eu "Hã? Tá tudo bem?"
 
-        eu "Oh"
+    helena "..."
 
-        "Helena parece muito decepcionada a respeito, talvez não seja uma boa ideia fazer mais perguntas"
+    helena "...eu só faço o site"
 
-        ct "O-ok, nós deixaremos você trabalhando Helena, vamos conhecer outro local, certo?"
+    eu "Oh"
 
-        eu "Ah, ok, até mais Helena!"
-        
+    "Helena parece muito decepcionada a respeito, talvez não seja uma boa ideia fazer mais perguntas"
+
+    ct "O-ok, nós deixaremos você trabalhando Helena, vamos conhecer outro local, certo?"
+
+    eu "Ah, ok, até mais Helena!"
+
     jump terreo
 
 label function:
@@ -304,9 +334,114 @@ label sala_prof:
     "sala prof"
     jump andar1
 
-#salas no terceiro
+#salas no segundo
 label auditorio:
     "auditório"
+    jump andar2
+
+label suporte:
+    scene suporte fora
+    show catarina felicidade at left
+    ct "Ah! O Suporte é ui neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
+
+    "Vocês entram no suporte e se deparam com uma sala de recepção com uma campainha"
+
+    eu "Hmmm, acho que devemos apertar a campainha para sermo atendidos"
+
+    "Você aperta a campainha"
+
+    "(Som genérico de campainha toca)"
+
+    scene suporte dentro
+
+    "Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
+
+    show supochan angry 
+
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+    
+    show catarina felicidade at left
+
+    show supochan angry at right
+
+    show catarina angry 
+
+    ct "O q-que? Nós não estamos aqui para consertar um PC!"
+
+    show supochan angry at right
+
+    supochan "..."
+
+    ct "..."
+
+    eu "..."
+
+    supochan "...Impossível"
+
+    ct "Claro que é possível, só queremos conhecer o Suporte"
+
+    show supochan flushed
+
+    supochan "tem certeza?"
+
+    eu "Sim! Eu sou novo na universidade e gostaria de conhecer o espaço!"
+
+    show supochan angry
+
+    supochan "Hmpf, pessoas não autorizadas não podem entrar no suporte!"
+
+    show catarina surprised
+
+    ct "Ah!"
+
+    ct "eu não sabia, peço desculpas, eu achava que podia apresentar o suporte..."
+
+    eu "Ah, sem problema, eu queria ver mas se é a regra então não podemos"
+
+    ct "Então, vamos conhecer outro laboratório ent-"
+
+    show supochan flushed
+
+    supochan "...Pera"
+
+    "A pessoa com quem estamos falando para estar pensando em alguma solução."
+
+    supochan "...E-eu não posso apresentar o suporte, mas posso falar um pouco do que fazemos aqui..."
+
+    eu "Você pode? Muito obrigado!"
+
+    show catarina happy ideia at left
+
+    show supochan proud
+
+    supochan "Hmpf, eu sou a Jasmine, e trabalho aqui no suporte, podem perguntar o que quiser!"
+
+    "Ela uma atitude estranha, mas parece ser uma boa pessoa "
+
+    eu "Olá Jasmine, eu gostaria de saber o que vocês fazem aqui!"
+
+    jas "Aqui no suporte respondemos a chamados que podem ser abertos no HELPDESK no site do cct"
+
+    jas "Se um computador, monitor, teclado ou qualquer equipamento de informática não estiver funcionando corretamente nas salas de aula, vocês podem acionar o suporte"
+
+    jas "Lembrando que o suporte só mexe com equipamentos da Udesc, não fazemos serviços particulares!"
+
+    show supochan flushed
+
+    jas "M-Mas se você pedir com jeito e-eu formato seu pc"
+
+    eu "Ok..."
+
+    "Isso está começando a fica estranho, talvez seja uma boa hora de ir embora"
+
+    ct "Obrigado pela atenção Jasmine, foi muito bom te conhecer!"
+
+    eu "Obrigado, sei que podemos contar com você quando precisarmos!"
+
+    jas "Hehe, podem contar comigo"
+
+    "Assim saímos da recepção do suporte"
+
     jump andar2
 
 #biblioteca e RU

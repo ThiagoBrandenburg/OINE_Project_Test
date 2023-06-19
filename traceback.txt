@@ -1,28 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 6, in script
-    define bia = Characrer("Beatriz",color="#ffa200")
-  File "game/script.rpy", line 6, in <module>
-    define bia = Characrer("Beatriz",color="#ffa200")
-NameError: name 'Characrer' is not defined
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+Exception: Sayer 'supochan' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 6, in script
-    define bia = Characrer("Beatriz",color="#ffa200")
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 6, in <module>
-    define bia = Characrer("Beatriz",color="#ffa200")
-NameError: name 'Characrer' is not defined
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'supochan' is not defined.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.1.1.23060707
 OINE_Project_Test 1.0
-Wed Jun 14 16:25:30 2023
+Mon Jun 19 13:48:34 2023

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 345: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)."   "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                                ^
+File "game/script.rpy", line 75: expected '=' not found.
+    image suporte dentro
+                        ^
+
+File "game/script.rpy", line 78: expected '=' not found.
+    image suporte fora
+                      ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Wed Jun 14 16:43:10 2023
+Mon Jun 19 13:59:59 2023
