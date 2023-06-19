@@ -276,6 +276,8 @@ ct "Ah! Sim claro, vamos"
 
 #COLMEIA
 
+show albelha happy
+
 ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
 
 "Você e Catarina batem na porta do laboratório e saem atendidos por alguém"
@@ -292,8 +294,42 @@ eu "Software Livre? O que seria isso?"
 
 albelha "Software Livre é o software que permite ao usuário executar, acessar e modificar códigos fontes e redistribuir cópias do programa"
 
-albelha "Sof"
+albelha "Sofwares Livres permitem que softwares estejam ao alcance da comunidade de programadores, o que torna o conhecimento e as ferramentas mais acessíveis"
 
-albelha "Além de projetos internos, o nosso laboratório atua na área de extensão, ministrando aulas e minicursos de diversos temas, visitando escolas e outras universidades"
+eu "Que Legal, e como vocês disseminam o conhecimento de software e hardware livre?"
 
-albelha "Também organizamos caravanas para eventos ligados ao Software Livre"
+albelha "Nos divulgamos por aulas e minicursos, visitando escolas e outras universidades"
+
+albelha "Também organizamos caravanas para eventos ligados ao Software Livre, e até mesmo programas para a rádio Udesc!"
+
+albelha "Os cursos preparados pelo Colmeia abragem diversos temas, como Desenvolvimento em Arduino, de Aplicativos com MIT App Inventor"
+
+ct "Alberto, onde ele pode encontrar esses materiais?"
+
+albelha "Todo o nosso material aberto pode ser encontrado na nossa página do Github, dá uma olhada lá"
+
+eu "ok, só mais uma pergunta..."
+
+albelha "O que foi?"
+
+eu "Posso segurar o pinguim?"
+
+show albelha thinking
+
+albelha "Só por uns momentos..."
+
+eu "hehe"
+
+"Você segura o pinguim, ele é tão macio quanto você esperava"
+
+albelha "d-devolve"
+
+"Você percebe que passou do limite e devolve o pinguim"
+
+eu "Então é isso, obrigado pelas explicações"
+
+ct "Obrigado Alberto"
+
+albelha "Claro, até mais!"
+
+"Você e Catarina saem do Colmeia"
