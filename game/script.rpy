@@ -243,25 +243,45 @@ label labp2d:
     scene p2d
     show catarina felicidade at left
     
-    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
-    show catarina happy ideia 
-    hl "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
 
-    ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" 
-    
-    ct "Então, Helena, pode nos explicar o que se faz aqui?"
+        ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
 
-    hl "Hmmmmmmm"
+        helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
 
-    hl "Ok, aceitarei essa requisição." 
-    
-    hl "O LabP2D é um laboratório de processamento paralelo e distribuído" 
-    
-    hl "A principal atividade do laboratório é o gerenciamento de nuvens. Na Nuvem Computacional privada do laboratório, estão hospedados diversos projetos da Universidade"
+        ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" "Então, Helena, pode nos explicar o que se faz aqui?"
 
-    "Helena aponta para os computadores no fundo da sala"
+        helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
 
-    hl "Aqueles são os servidores, esses servidores são computadores poderosos que são utilizados por alguns projetos da universidade"
+        helena "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
+
+        "Helena aponta para os computadores no fundo da sala"
+
+        helena "Aqueles são os servidores, esses servidores são computadores potentes que são utilizados por alguns projetos da universidade"
+
+        helena "Projetos de Pesquisa as vezes precisam dessas máquinas para realizar cálculos avançados"
+
+        eu "Que Legal, e de que projeto você faz parte Helena?"
+
+        helena "."
+
+        helena ".."
+
+        helena "..."
+
+        eu "Hã? Tá tudo bem?"
+
+        helena "..."
+
+        helena "...eu só faço o site"
+
+        eu "Oh"
+
+        "Helena parece muito decepcionada a respeito, talvez não seja uma boa ideia fazer mais perguntas"
+
+        ct "O-ok, nós deixaremos você trabalhando Helena, vamos conhecer outro local, certo?"
+
+        eu "Ah, ok, até mais Helena!"
+        
     jump terreo
 
 label function:
