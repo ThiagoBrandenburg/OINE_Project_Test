@@ -1,23 +1,23 @@
-Wed Jun 14 16:21:00 2023
+Mon Jun 19 13:39:34 2023
 Windows-10-10.0.19041
 Ren'Py 8.1.1.23060707
  
 
-Bootstrap to the start of init.init. took 0.07s
+Bootstrap to the start of init.init. took 0.09s
 Early init. took 0.00s
-Loader init. took 0.08s
-Loading error handling. took 0.06s
-Loading script. took 0.32s
-Loading save slot metadata. took 0.08s
+Loader init. took 0.09s
+Loading error handling. took 0.07s
+Loading script. took 0.61s
+Loading save slot metadata. took 0.09s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 311: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
+File "game/script.rpy", line 247: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start. took 0.81s
+Interface start. took 0.93s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -30,237 +30,17 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 95.47s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.03s
-Loading script. took 0.11s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.30s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 96.83s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.11s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.30s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 97.98s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.03s
-Loading script. took 0.11s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.30s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 98.64s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.03s
-Loading script. took 0.12s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 99.34s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.12s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 100.05s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.03s
-Loading script. took 0.11s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(958, 539) drawable=(958, 539)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 121.17s
+Bootstrap to the start of init.init. took 53.34s
 Early init. took 0.00s
 Loader init. took 0.05s
-Loading error handling. took 0.05s
+Loading error handling. took 0.03s
 Loading script. took 0.25s
 Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.72s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(958, 539) drawable=(958, 539)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 122.51s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.06s
-Loading script. took 0.24s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.78s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(958, 539) drawable=(958, 539)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 124.10s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.05s
-Loading script. took 0.24s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
+File "game/script.rpy", line 247: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show catarina felicidade at left
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -277,21 +57,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 125.44s
+Bootstrap to the start of init.init. took 92.18s
 Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.05s
-Loading script. took 0.26s
-Loading save slot metadata. took 0.06s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
+File "game/script.rpy", line 247: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show catarina felicidade at right
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start. took 0.70s
+Interface start. took 0.31s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -304,21 +84,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 126.83s
+Bootstrap to the start of init.init. took 108.88s
 Early init. took 0.00s
 Loader init. took 0.05s
-Loading error handling. took 0.05s
+Loading error handling. took 0.04s
 Loading script. took 0.25s
 Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
+File "game/script.rpy", line 250: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start. took 0.71s
+Interface start. took 0.69s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -331,21 +111,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 128.20s
+Bootstrap to the start of init.init. took 113.05s
 Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.06s
-Loading script. took 0.24s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.25s
 Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
+File "game/script.rpy", line 250: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start. took 0.68s
+Interface start. took 0.67s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -358,21 +138,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 129.65s
+Bootstrap to the start of init.init. took 137.34s
 Early init. took 0.00s
-Loader init. took 0.04s
-Loading error handling. took 0.03s
-Loading script. took 0.19s
-Loading save slot metadata. took 0.03s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 312: end of line expected.
-    bia "Sim, a biblioteca conta com um acervo digital bastante abrangente. Eles têm parcerias com editoras e instituições, disponibilizando acesso a livros eletrônicos, revistas e periódicos científicos online." "É uma ótima opção para pesquisas rápidas ou quando você preferir consultar os materiais no formato digital." "Mas atente que para acessar remotamente é preciso usar uma VPN!"
-                                                                                                                                                                                                                     ^
+File "game/script.rpy", line 250: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start. took 0.38s
+Interface start. took 0.29s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -385,7 +165,34 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 249.38s
+Bootstrap to the start of init.init. took 172.44s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.25s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+
+File "game/script.rpy", line 250: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start. took 0.69s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 191.63s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
@@ -393,29 +200,13 @@ Loading script. took 0.12s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 
-Full traceback:
-  File "game/script.rpy", line 6, in script
-    define bia = characrer("Beatriz",color="#ffa200")
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 6, in <module>
-    define bia = characrer("Beatriz",color="#ffa200")
-NameError: name 'characrer' is not defined
-
-While running game code:
-  File "game/script.rpy", line 6, in script
-    define bia = characrer("Beatriz",color="#ffa200")
-  File "game/script.rpy", line 6, in <module>
-    define bia = characrer("Beatriz",color="#ffa200")
-NameError: name 'characrer' is not defined
+File "game/script.rpy", line 250: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start. took 0.38s
+Interface start. took 0.32s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -428,79 +219,208 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 269.28s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.05s
-Loading script. took 0.27s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 6, in script
-    define bia = Characrer("Beatriz",color="#ffa200")
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2508, in execute
-    self.set()
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 2522, in set
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 6, in <module>
-    define bia = Characrer("Beatriz",color="#ffa200")
-NameError: name 'Characrer' is not defined
-
-While running game code:
-  File "game/script.rpy", line 6, in script
-    define bia = Characrer("Beatriz",color="#ffa200")
-  File "game/script.rpy", line 6, in <module>
-    define bia = Characrer("Beatriz",color="#ffa200")
-NameError: name 'Characrer' is not defined
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.83s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 299.73s
+Bootstrap to the start of init.init. took 199.74s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
-Loading script. took 0.12s
-Loading save slot metadata. took 0.03s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
-Running init code. took 0.02s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.02s
+
+File "game/script.rpy", line 252: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
+    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.24s
+Interface start. took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 255.81s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.03s
+Loading script. took 0.26s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+
+File "game/script.rpy", line 254: end of line expected.
+    ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" "Então, Helena, pode nos explicar o que se faz aqui?"
+                                                                                                 ^
+
+File "game/script.rpy", line 256: end of line expected.
+    helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
+                      ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start. took 0.67s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 301.08s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+
+File "game/script.rpy", line 258: end of line expected.
+    helena "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
+                                            ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start. took 0.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 311.44s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.29s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+Running init code. took 0.13s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.52s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'supochan' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+Exception: Sayer 'supochan' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'supochan' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+Exception: Sayer 'supochan' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'supochan' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 335, in script
+    supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
+Exception: Sayer 'supochan' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init. took 542.54s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.04s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.25s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.06s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.04s
@@ -516,39 +436,21 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 581.99s
+Bootstrap to the start of init.init. took 659.02s
 Early init. took 0.00s
-Loader init. took 0.06s
+Loader init. took 0.05s
 Loading error handling. took 0.04s
-Loading script. took 0.34s
+Loading script. took 0.27s
 Loading save slot metadata. took 0.07s
 Loading persistent. took 0.00s
-Running init code. took 0.09s
-Loading analysis data. took 0.03s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
-Dump and make backups. took 0.12s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.07s
+
+File "game/script.rpy", line 26: expected 'image_name_component' not found.
+    image show supochan angry:
+         ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.60s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.04s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.09s
+Interface start. took 0.77s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -561,30 +463,205 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 588.05s
+Bootstrap to the start of init.init. took 683.31s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.16s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.43s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1081.94s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.21s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+
+File "game/script.rpy", line 75: expected '=' not found.
+    image suporte dentro
+                        ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start. took 0.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1196.77s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.12s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+
+File "game/script.rpy", line 75: expected '=' not found.
+    image suporte dentro
+                        ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start. took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1224.19s
 Early init. took 0.00s
 Loader init. took 0.05s
 Loading error handling. took 0.04s
-Loading script. took 0.25s
+Loading script. took 0.27s
 Loading save slot metadata. took 0.05s
 Loading persistent. took 0.00s
-Running init code. took 0.08s
+
+File "game/script.rpy", line 75: expected '=' not found.
+    image suporte dentro
+                        ^
+
+File "game/script.rpy", line 78: expected '=' not found.
+    image suporte fora
+                      ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start. took 0.93s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1239.46s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.14s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
 Loading analysis data. took 0.03s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.05s
 Index archives took 0.00s
-Dump and make backups. took 0.10s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1270.28s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.09s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
 Initial gc. took 0.04s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.54s
+Creating interface object. took 0.55s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.08s
 Build styles took 0.01s
-Load screen analysis took 0.05s
+Load screen analysis took 0.06s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.13s
@@ -605,38 +682,39 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 1207.30s
+Bootstrap to the start of init.init. took 1338.07s
 Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.23s
-Loading save slot metadata. took 0.05s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.17s
+Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
-Running init code. took 0.07s
-Loading analysis data. took 0.03s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.06s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
 Index archives took 0.00s
-Dump and make backups. took 0.10s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.03s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.72s
+Creating interface object. took 0.25s
 Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.06s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.10s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.06s
+Interface start. took 0.04s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -649,538 +727,72 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 1271.17s
-Early init. took 0.00s
-Loader init. took 0.03s
-Loading error handling. took 0.03s
-Loading script. took 0.20s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário" "Ou RU para os mais íntimos"
-                                          ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.48s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1283.51s
+Bootstrap to the start of init.init. took 1377.09s
 Early init. took 0.00s
 Loader init. took 0.05s
-Loading error handling. took 0.04s
-Loading script. took 0.26s
-Loading save slot metadata. took 0.05s
+Loading error handling. took 0.11s
+Loading script. took 0.69s
+Loading save slot metadata. took 0.09s
 Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.73s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1284.90s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.04s
-Loading script. took 0.25s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.66s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1288.39s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.03s
-Loading script. took 0.25s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.66s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1289.69s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.26s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 1.01s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1291.37s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.26s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.73s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1292.78s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.04s
-Loading script. took 0.26s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.81s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1294.25s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.06s
-Loading script. took 0.28s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.70s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1295.63s
-Early init. took 0.00s
-Loader init. took 0.07s
-Loading error handling. took 0.04s
-Loading script. took 0.32s
-Loading save slot metadata. took 0.06s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário""Ou RU para os mais íntimos"
-                                         ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.76s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1297.12s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.04s
-Loading script. took 0.27s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário" "Ou RU para os mais íntimos"
-                                          ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.69s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1298.48s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.28s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário" "Ou RU para os mais íntimos"
-                                          ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.72s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1299.88s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.32s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário" "Ou RU para os mais íntimos"
-                                          ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.68s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1301.33s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.31s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 334: end of line expected.
-    ct "Este o restaurante universitário" "Ou RU para os mais íntimos"
-                                          ^
-
-File "game/script.rpy", line 344: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.35s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1306.09s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.12s
-Loading save slot metadata. took 0.03s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 345: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1307.02s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.11s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 345: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)." "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                              ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1328.40s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.04s
-Loading script. took 0.28s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 345: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)."   "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                                ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.69s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1329.74s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.04s
-Loading script. took 0.26s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 345: end of line expected.
-    eu "(Uhh. Pelo menos sei o que esperar)."   "E quanto aos preços, são realmente mais em conta que no shopping?"
-                                                ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.67s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1339.08s
-Early init. took 0.00s
-Loader init. took 0.10s
-Loading error handling. took 0.06s
-Loading script. took 0.37s
-Loading save slot metadata. took 0.06s
-Loading persistent. took 0.00s
-Running init code. took 0.10s
+Running init code. took 0.09s
 Loading analysis data. took 0.02s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
-Dump and make backups. took 0.12s
+Dump and make backups. took 0.11s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.05s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.60s
+Creating interface object. took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1425.08s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.72s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+Running init code. took 0.07s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.55s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.01s
@@ -1205,11 +817,11 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 1380.32s
+Bootstrap to the start of init.init. took 1474.87s
 Early init. took 0.00s
 Loader init. took 0.05s
 Loading error handling. took 0.04s
-Loading script. took 0.28s
+Loading script. took 0.23s
 Loading save slot metadata. took 0.06s
 Loading persistent. took 0.00s
 Running init code. took 0.08s
@@ -1217,7 +829,6 @@ Loading analysis data. took 0.02s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.05s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
 Dump and make backups. took 0.10s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
@@ -1225,16 +836,16 @@ Initial gc. took 0.05s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.79s
+Creating interface object. took 0.61s
 Cleaning stores took 0.00s
-Init translation took 0.09s
+Init translation took 0.06s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.04s
-Prepare screens took 0.14s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.12s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.09s
@@ -1250,34 +861,79 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 1433.66s
+Bootstrap to the start of init.init. took 1550.34s
 Early init. took 0.00s
-Loader init. took 0.10s
-Loading error handling. took 0.05s
-Loading script. took 0.40s
-Loading save slot metadata. took 0.05s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.16s
+Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
-Running init code. took 0.07s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.05s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
-Dump and make backups. took 0.12s
+Dump and make backups. took 0.07s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
 Initial gc. took 0.05s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.60s
+Creating interface object. took 0.26s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1578.51s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.41s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.14s
+Prepare screens took 0.12s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
@@ -1294,7 +950,406 @@ Version: b'4.6.0 NVIDIA 457.49'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Resetting cache.
+Bootstrap to the start of init.init. took 1633.00s
+Early init. took 0.00s
+Loader init. took 0.06s
+Loading error handling. took 0.05s
+Loading script. took 0.28s
+Loading save slot metadata. took 0.09s
+Loading persistent. took 0.00s
+Running init code. took 0.12s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.13s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.55s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1681.30s
+Early init. took 0.00s
+Loader init. took 0.07s
+Loading error handling. took 0.05s
+Loading script. took 0.49s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.02s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.57s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1695.58s
+Early init. took 0.00s
+Loader init. took 0.04s
+Loading error handling. took 0.03s
+Loading script. took 0.16s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1831.90s
+Early init. took 0.00s
+Loader init. took 0.06s
+Loading error handling. took 0.03s
+Loading script. took 0.25s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.28s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1840.48s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1902.04s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.14s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2142.93s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.31s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.24s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2255.57s
+Early init. took 0.00s
+Loader init. took 0.06s
+Loading error handling. took 0.04s
+Loading script. took 0.36s
+Loading save slot metadata. took 0.08s
+Loading persistent. took 0.00s
+Running init code. took 0.09s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.61s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3326.37s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.15s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.30s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
