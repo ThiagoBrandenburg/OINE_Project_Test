@@ -40,9 +40,13 @@ ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresent
 
 helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
 
-ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" "Então, Helena, pode nos explicar o que se faz aqui?"
+ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório"
 
-helena "Hmmmmmmm" "Ok, aceitarei essa requisição." "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
+ct "Então, Helena, pode nos explicar o que se faz aqui?"
+
+helena "Hmmmmmmm" "Ok, aceitarei essa requisição."
+
+helena "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
 
 helena "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
 
@@ -79,7 +83,7 @@ eu "Ah, ok, até mais Helena!"
 
 #SUPORTE
 
-ct "Ah! O Suporte é ui neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
+ct "Ah! O Suporte é um neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
 
 "Vocês entram no suporte e se deparam com uma sala de recepção com uma campainha"
 
@@ -91,7 +95,7 @@ eu "Hmmm, acho que devemos apertar a campainha para sermo atendidos"
 
 "Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
 
-show supochan angry
+show supochan angry pointing
 
 supochan "QUEM SÃO VOCÊS?! EU NÃO VOU CONSERTAR SEU PC"
 
@@ -102,6 +106,8 @@ supochan "..."
 ct "..."
 
 eu "..."
+
+show supochan angry
 
 supochan "...Impossível"
 
@@ -115,7 +121,7 @@ supochan "tem certeza?"
 
 eu "Sim! Eu sou novo na universidade e gostaria de conhecer o espaço!"
 
-show supochan angry
+show supochan angry pointing
 
 supochan "Hmpf, pessoas não autorizadas não podem entrar no suporte!"
 
@@ -139,7 +145,7 @@ supochan "...E-eu não posso apresentar o suporte, mas posso falar um pouco do q
 
 eu "Você pode? Muito obrigado!"
 
-show supochan proud
+#show supochan proud
 
 supochan "Hmpf, eu sou a Jasmine, e trabalho aqui no suporte, podem perguntar o que quiser!"
 
@@ -150,6 +156,8 @@ eu "Olá Jasmine, eu gostaria de saber o que vocês fazem aqui!"
 supochan "Aqui no suporte respondemos a chamados que podem ser abertos no HELPDESK no site do cct"
 
 supochan "Se um computador, monitor, teclado ou qualquer equipamento de informática não estiver funcionando corretamente nas salas de aula, vocês podem acionar o suporte"
+
+supochan angry pointing
 
 supochan "Lembrando que o suporte só mexe com equipamentos da Udesc, não fazemos serviços particulares!"
 
@@ -171,15 +179,7 @@ supochan "Hehe, podem contar comigo"
 
 
 #FUNCAO
-'''
-O tema geral é os fundamentos matemáticos da computação, amplamente isso é lógica, 
-teoria de tipos e teoria da computação, mas também abrange coisas como linguagens formais e teoria de linguagens de programação
-É um laboratório de pesquisa, e temos 3 linhas principais de pesquisa: Lógica e Provadores de Teoremas (Karina, mostly), Teoria de Tipos e Compiladores (Cristiano)
-Não temos nenhum projeto de IC rolando no momento, mas tem 4 TCCs, todos da Karina,
-destes 2 são puramente lógica e provadores (meu, Alexandre) 1 é sobre teoria de grafos e verificação de algoritmos (João)
-e 1 é o wildcard do grupo sobre algoritmos de criptografia (Wallace)
 
-'''
 
 ct "Ah! Esse laboratório é o função! O pessoal deste laboratório atua na parte de lógica!"
 
@@ -187,7 +187,7 @@ ct "Admito que não sei muito a respeito, então vai ser interessante para mim t
 
 "Chegamos no Função e batemos na porta"
 
-"Uma pessoa de aparência interssante nos recebeu aqui."
+"Nos somos recebidos por um membro do laboratório."
 
 show funfox
 
@@ -203,11 +203,11 @@ funfox "..."
 
 ct "?"
 
-funfox "...isso...pode demorar um pouco..."
+funfox "...isso...pode um pouco difícil de explicar..."
 
 eu "P-Perdão, eu fiz uma pergunta que não devia?"
 
-funfox "Não, não há nada errado na sua pergunta, eu só estou pensando o que fazemos no laboratório..."
+funfox "Não, não há nada errado na sua pergunta, só preciso de um tempo para organizar essa resposta..."
 
 show funfox thinking
 
@@ -217,7 +217,7 @@ funfox "..."
 
 funfox "O função é... um laboratório que estuda fundamentos matemáticos da computação..."
 
-funfox "De forma geral, isso seria lógica."
+funfox "...de forma geral, isso seria lógica."
 
 funfox "No decorrer do curso, você irá fazer várias matérias que se aprofundam em áreas que o laboratório estuda"
 
@@ -235,7 +235,11 @@ show catarina angry:
 
 ct "EI! Nada de assustar os calouros!"
 
-funfox "Perdão, existe mais alguma pergunta que queiram fazer?"
+funfox "Perdão, talvez seja melhor eu explicar pelo menos um pouco"
+
+funfox "A parte de lógica"
+
+funfox "P"
 
 eu "Hmmmm, bem, quem é que está dormindo ali no canto?"
 
