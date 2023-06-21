@@ -1,4 +1,5 @@
-﻿define s = Character('Sylvie', color="#c8ffc8")
+﻿#definição de personagens
+define s = Character('Sylvie', color="#c8ffc8")
 define m = Character('Me', color="#c8c8ff")
 define ct = Character('Catarina', color="#34eb3a")
 define eu = Character('Eu',color="#000000")
@@ -9,9 +10,12 @@ define jas = Character('Jasmine',color="#ff0000")
 define funfox = Character('Membro do função',color="#ff00ea")
 define afonso = Character('Afonso',color="#ff00ea")
 define albelha = Character('Alberto',color="#fff200")
-#Define Images
 
+##########################################################################################
+#Define Images
 #personagens
+
+#catarina
 image catarina happy ideia:
     "catarina happy ideia.png"
     zoom 0.3
@@ -24,6 +28,7 @@ image catarina felicidade:
     "catarina happy explaining.png"
     zoom 0.3  
 
+#suporte
 image supochan angry:
     "supochan angry.png"
     zoom 0.3
@@ -40,6 +45,7 @@ image supochan proud:
     "supochan proud.png"
     zoom 0.3
 
+#função
 image funfox explaining:
     "fox_explain.png"
     zoom 0.3
@@ -48,6 +54,7 @@ image funfox thinking:
     "fox_think.png"
     zoom 0.3
 
+#colmeia
 image albelha happy:
     "abelha_happy.png"
     zoom 0.3
@@ -56,6 +63,7 @@ image albelha thinking:
     "abelha_think.png"
     zoom 0.3
 
+#labP2D
 image helena normal:
     "pd2chan serious.png"
     zoom 0.36
@@ -64,18 +72,21 @@ image helena vibes:
     "helena_vibes.png"
     zoom 0.36
 
-
-
-
-
-
+##########################################################################################
 #Backgrounds
-image segundo_andar:
-    "segundo andar.png"
 
 image bg entrada:
     "bg entrada.png"
     zoom 2.6    
+
+image bg terreo:
+    "bg terreo.png"
+
+image placaF:
+    "placaF.png"
+
+image segundo_andar:
+    "segundo andar.png"
 
 image colmeia:
     "colmeia.png"
@@ -89,9 +100,6 @@ image funcao:
 image bg andar1:
     "bg andar1.png"
 
-image bg terreo:
-    "bg terreo.png"
-
 image biblioteca:
     "biblioteca.jpg"
     zoom 2.2
@@ -99,9 +107,6 @@ image biblioteca:
 image restaurante:
     "bg_ru.jpeg"
     zoom 0.7
-
-image placaF:
-    "placaF.png"
 
 image suporte dentro:
     "suporte_dentro.png"
@@ -123,9 +128,8 @@ default biblioteca = 0
 default ru = 0
 default anylab = 0
 
-
-
-
+##########################################################################################
+#VN STARTS HERE
 label start:
 
     scene bg entrada
@@ -149,7 +153,6 @@ label start:
     eu "Puxa você pode mesmo? Muito Obrigado"
 
     ct "Sem problemas, primeiro deixe eu te mostrar onde é o nosso bloco da Computação"
-   
 
     #ct "Saia daqui imediatamente se quer manter sua sanidade!"
     # ct "Olá, Meu nome é Catarina, você é calouro?"
@@ -160,28 +163,24 @@ label start:
 
     # ct "Não, vc não é, volte imediatamente"
 
-menu d_guarita:
-    "O que farei?"
-    
-    "Seguir Catarina":
-        scene placaF
-        "Depois de uma árdua jornada subindo o morro do cct, você chegou ao bloco F"
-    
-        eu "Nossa, como é difícil chegar aqui"
-
-        show catarina angry at right
-
-        ct "Pois é, nosso campus ainda tem problemas de acessibilidade, mas tenho certeza que algo está será feito a respeito"
-
-        show catarina felicidade at right
-
-        ct "Mas vamos falar de coisas felizes! Há tantos laboratórios para conhecer, e lugares a visitar! Tenho certeza que todos estarão de braços abertos para nos receber!"
-
-        jump terreo
-
-
+    menu:
+        "O que farei?"
         
+        "Seguir Catarina":
+            scene placaF
+            "Depois de uma árdua jornada subindo o morro do cct, você chegou ao bloco F"
+        
+            eu "Nossa, como é difícil chegar aqui"
 
+            show catarina angry at right
+
+            ct "Pois é, nosso campus ainda tem problemas de acessibilidade, mas tenho certeza que algo está será feito a respeito"
+
+            show catarina felicidade at right
+
+            ct "Mas vamos falar de coisas felizes! Há tantos laboratórios para conhecer, e lugares a visitar! Tenho certeza que todos estarão de braços abertos para nos receber!"
+
+            jump terreo
 
 # label fugir:
 #     "Você decidiu que era uma boa ideia voltar e não entrar na Udesc"
@@ -213,7 +212,7 @@ label terreo:
         eu "Quero visitar um!"
         $ terreo = 1
         
-    menu:
+    menu: 
         
         "Para onde devo ir?"
 
@@ -278,9 +277,6 @@ label andar1:
         "Terreo":
             jump terreo
 
-        
-
-
 label andar2:
     scene segundo_andar
     "Este é o Segundo Andar"
@@ -300,8 +296,6 @@ label andar2:
         "Primeiro Andar":
             jump andar1
         
-
-
 
 #salas no terreo
 label labp2d:
@@ -519,6 +513,7 @@ label colmeia:
     albelha "Claro, até mais!"
 
     "Você e Catarina saem do Colmeia"
+
     jump terreo
 
 
@@ -549,6 +544,8 @@ label suporte:
 
     "(Som genérico de campainha toca)"
 
+    play audio "doorbell-7.mp3"
+    
     scene suporte dentro
 
     "Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
