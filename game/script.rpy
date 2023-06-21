@@ -91,6 +91,7 @@ default sala_prof = 0
 default auditorio = 0
 default biblioteca = 0
 default ru = 0
+default anylab = 0
 
 
 
@@ -167,29 +168,23 @@ menu d_guarita:
 label terreo:
     scene bg terreo
     show catarina happy ideia at right
-    ct "Este é o Térreo do Bloco L"
+
     if terreo == 0:
         show catarina happy ideia
         
+        ct "Este é o Térreo do Bloco L"
+
         ct "No terreo, além das salas de aula e do ambiente de estudo, temos a maioria dos laboratórios de pesquisa e extensão"
 
         eu "Que tipo de laboratórios há aqui?"
 
         ct "Existem laboratório de Imagem, de software livre, de lógica... Nossa, existem tantos que não consigo lembrar agora!, vamos ter que explorar um por um"
-
-        eu "Como eu faço para me juntar a um laboratório?"
-
-        ct "Os laboratórios abrem processos seletivos periodicamente, mas é interessante buscar serviços voluntários"
-
-        ct "Falar com os professores responsáveis de cada laboratório também é uma boa ideia"
-
-        ct "Você ainda pode achar várias informações nas redes sociais"
-
-        eu "Vou começar a seguir vários laboratórios!"
         
         eu "Quero visitar um!"
         $ terreo = 1
+        
     menu:
+        
         "Para onde devo ir?"
 
         "teste":
@@ -197,12 +192,15 @@ label terreo:
             jump terreo
 
         "Laboratório Função":
+            $ anylab = 1
             jump function
         
         "Laboratório Colmeia":
+            $ anylab = 1
             jump colmeia
 
         "Laboratório P2D":
+            $ anylab = 1
             jump labp2d
 
         "Primeiro Andar":
@@ -211,9 +209,21 @@ label terreo:
         "biblioteca":
             jump biblioteca
             
-        
         "RU":
             jump ru
+        
+        "Como lab" if anylab == 1:
+            eu "Como eu faço para me juntar a um laboratório?"
+
+            ct "Os laboratórios abrem processos seletivos periodicamente, mas é interessante buscar serviços voluntários"
+
+            ct "Falar com os professores responsáveis de cada laboratório também é uma boa ideia"
+
+            ct "Você ainda pode achar várias informações nas redes sociais"
+
+            eu "Vou começar a seguir vários laboratórios!"
+            
+            jump terreo
     
 
 label andar1:
@@ -512,7 +522,7 @@ label ru:
     "Você decide deixar suas aventuras gastronômicas para outra hora"
     menu:
         "Para onde devo ir?"
-        "bibilioteca":
+        "Bibilioteca":
             jump biblioteca
-        "terreo":
+        "Terreo":
             jump terreo

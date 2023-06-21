@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 75: expected '=' not found.
-    image suporte dentro
-                        ^
-
-File "game/script.rpy", line 78: expected '=' not found.
-    image suporte fora
-                      ^
+File "game/script.rpy", line 219: reached end of line when expecting ':'.
+    "Como lab" if anylab == 1
+                             ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Mon Jun 19 13:59:59 2023
+Mon Jun 19 15:26:02 2023
