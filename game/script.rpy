@@ -6,8 +6,9 @@ define hl = Character('Helena',color="#008cff")
 define bia = Character('Beatriz',color="#ff9100")
 define supochan = Character('Funcionaria do suporte',color="#ff0000")
 define jas = Character('Jasmine',color="#ff0000")
-
-
+define funfox = Character('Membro do função',color="#ff00ea")
+define afonso = Character('Afonso',color="#ff00ea")
+define albelha = Character('Alberto',color="#fff200")
 #Define Images
 
 #personagens
@@ -34,6 +35,35 @@ image supochan angry pointing:
 image supochan flushed:
     "supochan flushed.png"
     zoom 0.3
+
+image supochan proud:
+    "supochan proud.png"
+    zoom 0.3
+
+image funfox explaining:
+    "fox_explain.png"
+    zoom 0.3
+
+image funfox thinking:
+    "fox_think.png"
+    zoom 0.3
+
+image albelha happy:
+    "abelha_happy.png"
+    zoom 0.3
+
+image albelha thinking:
+    "abelha_think.png"
+    zoom 0.3
+
+image helena normal:
+    "pd2chan serious.png"
+    zoom 0.36
+
+image helena vibes:
+    "helena_vibes.png"
+    zoom 0.36
+
 
 
 
@@ -277,42 +307,47 @@ label andar2:
 label labp2d:
     scene labp2d_bg
     
-    
+    show catarina felicidade at right
 
     ct "Esse é o LabP2D, eu conheço uma pessoa que trabalha aqui que pode apresentar apresentar esse lugar."
+    
+    show helena normal at left
 
-    helena "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
+    hl "Hmpf, você por acaso está DISTRIBUINDO as responsabilidades de apresentar os laboratórios, Catarina?"
 
     ct "Ah, aqui está ela, essa é a Helena! Ela é bolsista de um dos professores do laboratório" 
+
     ct "Então, Helena, pode nos explicar o que se faz aqui?"
 
-    helena "Hmmmmmmm" 
+    hl "Hmmmmmmm" 
 
-    helena "Ok, aceitarei essa requisição." 
+    hl "Ok, aceitarei essa requisição." 
 
-    helena "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
+    hl "O LabP2D é um laboratório de processamento paralelo e distribuído, que além de fazer pesquisa administra uma nuvem."
 
-    helena "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
+    hl "Uma das principais coisas que se faz aqui é gerenciar a nuvem do laboratório, estão hospedados diversos projetos da Universidade"
 
     "Helena aponta para os computadores no fundo da sala"
 
-    helena "Aqueles são os servidores, esses servidores são computadores potentes que são utilizados por alguns projetos da universidade"
+    hl "Aqueles são os servidores, esses servidores são computadores potentes que são utilizados por alguns projetos da universidade"
 
-    helena "Projetos de Pesquisa as vezes precisam dessas máquinas para realizar cálculos avançados"
+    hl "Projetos de Pesquisa as vezes precisam dessas máquinas para realizar cálculos avançados"
 
     eu "Que Legal, e de que projeto você faz parte Helena?"
 
-    helena "."
+    show helena vibes
 
-    helena ".."
+    hl "."
 
-    helena "..."
+    hl ".."
+
+    hl "..."
 
     eu "Hã? Tá tudo bem?"
 
-    helena "..."
+    hl "..."
 
-    helena "...eu só faço o site"
+    hl "...eu só faço o site"
 
     eu "Oh"
 
@@ -326,12 +361,164 @@ label labp2d:
 
 label function:
     scene funcao    
-    "função"
+    
+    show catarina felicidade at right
+
+    ct "Ah! Esse laboratório é o função! O pessoal deste laboratório atua na parte de lógica!"
+
+    ct "Admito que não sei muito a respeito, então vai ser interessante para mim também saber o que fazem aqui."
+
+    "Chegamos no Função e batemos na porta"
+
+    "Nos somos recebidos por um membro do laboratório."
+
+    show funfox explaining at left
+
+    funfox "Hm? Oh, Catarina, seja bem vinda! E quem seria esse?"
+
+    ct "Este aqui é um aluno novo da Computação, deseje boas vindas para ele"
+
+    funfox "Olá, Meu nome é Afonso, e faço parte do Função, deseja conhecer o laboratório?"
+
+    eu "Sim, o que vocês fazem no laboratório?"
+
+    afonso "..."
+
+    ct "?"
+
+    afonso "...isso...pode um pouco difícil de explicar..."
+
+    eu "P-Perdão, eu fiz uma pergunta que não devia?"
+
+    afonso "Não, não há nada errado na sua pergunta, só preciso de um tempo para organizar essa resposta..."
+
+    show funfox thinking
+
+    afonso "..."
+
+    "Afonso parece estar pensando muito a respeito de como apresentar o laboratório"
+
+    afonso "O função é... um laboratório que estuda fundamentos matemáticos da computação..."
+
+    afonso "...de forma geral, isso seria lógica, Teoria de Tipos e Teoria da Computação."
+
+    show funfox explaining
+
+    afonso "Mas também temos projetos que abrangem linguagens formais e teoria de linguagens de programação"
+
+    afonso "No decorrer do curso, você irá fazer várias matérias que se aprofundam em áreas que o laboratório estuda."
+
+    afonso "Matérias como Teoria da Computação e Compiladores, por exemplo."
+
+    afonso "Agora no primeiro semestre, você terá Lógica Matemática, que introduzirá os conceitos que usamos aqui"
+
+    eu "Eu não sei se entendo muito bem..."
+
+    afonso "Não tem problema, você entenderá..."
+
+    afonso "..."
+
+    afonso "..queira você ou não."
+
+    show catarina angry
+
+    ct "EI! Nada de assustar os calouros!"
+
+    show funfox explaining
+
+    afonso "Perdão."
+
+    afonso "Teriam mais alguma pergunta?"
+
+    eu "Hmmmm, eu entendi que nós veremos muitos desses conceitos no curso"
+
+    eu "Mas me parece que a lógica que vocês fazem com lógica aqui é um pouco diferente do que estou acostumado"
+
+    eu "Vocês aplicam lógica em computação, como funciona isso?"
+
+    afonso "Bem, essencialmente tem duas coisas que nós vemos em lógica:"
+
+    afonso "Primeiro, como usar lógica para representar formalmente programas"
+
+    afonso "Com isso, podemos provar propriedades sobre estes mesmos programas"
+
+    afonso "Outra área de estudo é o que são sistemas lógicas e como podemos racíocinar {b}sobre lógicas{/b}, não apenas {b}com{/b} essas lógicas"
+
+    afonso "Teria mais outra pergunta?"
+
+    eu "Hmmmm, bem, quem é que está dormindo ali no canto?"
+
+    afonso "Outra pergunta por favor"
+
+    eu "errrr...quer saber? Talvez acho que é tudo por agora, vamos visitar outro laboratório, Catarina?"
+
+    ct "Ah! Sim claro, vamos"
+
+    "Assim você e Catarina saem do Função"
     jump terreo
 
 label colmeia:
     scene colmeia
-    "colmeia"
+    
+    show catarina felicidade at right
+
+    ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
+
+    "Você e Catarina batem na porta do laboratório e são atendidos por alguém"
+
+    show albelha happy at left
+
+    albelha "Hmmm, olá Catarina, quem está junto com você?"
+
+    ct "Olá Alberto, ese é um novo aluno do campus, ele gostaria de conhecer os laboratórios!"
+
+    albelha "Oh, posso apresentar o Colmeia para vocês."
+
+    albelha "Nós somos um laboratório de extensão, com principal objetivo de disseminar o conhecimento e uso de software e hardware livres"
+
+    eu "Software Livre? O que seria isso?"
+
+    albelha "Software Livre é o software que permite ao usuário executar, acessar e modificar códigos fontes e redistribuir cópias do programa"
+
+    albelha "Sofwares Livres permitem que softwares estejam ao alcance da comunidade de programadores, o que torna o conhecimento e as ferramentas mais acessíveis"
+
+    eu "Que Legal, e como vocês disseminam o conhecimento de software e hardware livre?"
+
+    albelha "Nos divulgamos por aulas e minicursos, visitando escolas e outras universidades"
+
+    albelha "Também organizamos caravanas para eventos ligados ao Software Livre, e até mesmo programas para a rádio Udesc!"
+
+    albelha "Os cursos preparados pelo Colmeia abragem diversos temas, como Desenvolvimento em Arduino, de Aplicativos com MIT App Inventor"
+
+    ct "Alberto, onde ele pode encontrar esses materiais?"
+
+    albelha "Todo o nosso material aberto pode ser encontrado na nossa página do Github, dá uma olhada lá"
+
+    eu "ok, só mais uma pergunta..."
+
+    albelha "O que foi?"
+
+    eu "Posso segurar o pinguim?"
+
+    show albelha thinking
+
+    albelha "Só por uns momentos..."
+
+    eu "hehe"
+
+    "Você segura o pinguim, ele é tão macio quanto você esperava"
+
+    albelha "d-devolve"
+
+    "Você percebe que passou do limite e devolve o pinguim"
+
+    eu "Então é isso, obrigado pelas explicações"
+
+    ct "Obrigado Alberto"
+
+    albelha "Claro, até mais!"
+
+    "Você e Catarina saem do Colmeia"
     jump terreo
 
 

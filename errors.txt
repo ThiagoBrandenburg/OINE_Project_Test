@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 219: reached end of line when expecting ':'.
-    "Como lab" if anylab == 1
-                             ^
+File "game/script.rpy", line 337: expected statement.
+    z
+     ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Mon Jun 19 15:26:02 2023
+Wed Jun 21 11:34:30 2023
