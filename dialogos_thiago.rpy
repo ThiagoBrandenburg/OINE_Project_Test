@@ -189,7 +189,7 @@ ct "Admito que não sei muito a respeito, então vai ser interessante para mim t
 
 "Nos somos recebidos por um membro do laboratório."
 
-show funfox
+show funfox explaining
 
 funfox "Hm? Oh, Catarina, seja bem vinda! E quem seria esse?"
 
@@ -217,11 +217,17 @@ funfox "..."
 
 funfox "O função é... um laboratório que estuda fundamentos matemáticos da computação..."
 
-funfox "...de forma geral, isso seria lógica."
+funfox "...de forma geral, isso seria lógica, Teoria de Tipos e Teoria da Computação."
 
-funfox "No decorrer do curso, você irá fazer várias matérias que se aprofundam em áreas que o laboratório estuda"
+show funfox explaining
 
-funfox "Temos projetos na área de Lógica e provadores de Teoremas, Teoria de Tipos, Compiladores, Linguagens de Programação entre outros"
+funfox "Mas também temos projetos que abrangem linguagens formais e teoria de linguagens de programação"
+
+funfox "No decorrer do curso, você irá fazer várias matérias que se aprofundam em áreas que o laboratório estuda."
+
+funfox "Matérias como Teoria da Computação e Compiladores, por exemplo."
+
+funfox "Agora no primeiro semestre, você terá Lógica Matemática, que introduzirá os conceitos que usamos aqui"
 
 eu "Eu não sei se entendo muito bem..."
 
@@ -235,24 +241,42 @@ show catarina angry:
 
 ct "EI! Nada de assustar os calouros!"
 
-funfox "Perdão, talvez seja melhor eu explicar pelo menos um pouco"
+show funfox explaining
 
-funfox "A parte de lógica"
+funfox "Perdão."
 
-funfox "P"
+funfox "Teriam mais alguma pergunta?"
+
+eu "Hmmmm, eu entendi que nós veremos muitos desses conceitos no curso"
+
+eu "Mas me parece que a lógica que vocês fazem com lógica aqui é um pouco diferente do que estou acostumado"
+
+eu "Vocês aplicam lógica em computação, como funciona isso?"
+
+funfox "Bem, essencialmente tem duas coisas que nós vemos em lógica:"
+
+funfox "Primeiro, como usar lógica para representar formalmente programas"
+
+funfox "Com isso, podemos provar propriedades sobre estes mesmos programas"
+
+funfox "Outra área de estudo é o que são sistemas lógicas e como podemos racíocinar {b}sobre lógicas{/b}, não apenas {b}com{/b} essas lógicas"
+
+funfox "Teria mais outra pergunta?"
 
 eu "Hmmmm, bem, quem é que está dormindo ali no canto?"
 
 funfox "Outra pergunta por favor"
 
-eu "errrr...quer saber? Talvez seja melhor visitar outro laboratório, vamos Catarina?"
+eu "errrr...quer saber? Talvez acho que é tudo por agora, vamos visitar outro laboratório, Catarina?"
 
 ct "Ah! Sim claro, vamos"
 
-"Assim saíram catarina e o calouro do Função, com mais dúvidas do que quando entraram"
+"Assim você e Catarina saem do Função"
 
 
 #COLMEIA
+
+show albelha happy
 
 ct "Ah, O Colmeia, conheço alguém que pode nós explicar tudo sobre o laboratório"
 
@@ -264,14 +288,48 @@ ct "Olá Alberto, ese é um novo aluno do campus, ele gostaria de conhecer os la
 
 albelha "Oh, posso apresentar o Colmeia para vocês."
 
-albelha "Nós somos um laboratório de extensão, com principal objetivo de disseminar o conhecimento e uso de software e hardlivre livres"
+albelha "Nós somos um laboratório de extensão, com principal objetivo de disseminar o conhecimento e uso de software e hardware livres"
 
 eu "Software Livre? O que seria isso?"
 
 albelha "Software Livre é o software que permite ao usuário executar, acessar e modificar códigos fontes e redistribuir cópias do programa"
 
-albelha "Sof"
+albelha "Sofwares Livres permitem que softwares estejam ao alcance da comunidade de programadores, o que torna o conhecimento e as ferramentas mais acessíveis"
 
-albelha "Além de projetos internos, o nosso laboratório atua na área de extensão, ministrando aulas e minicursos de diversos temas, visitando escolas e outras universidades"
+eu "Que Legal, e como vocês disseminam o conhecimento de software e hardware livre?"
 
-albelha "Também organizamos caravanas para eventos ligados ao Software Livre"
+albelha "Nos divulgamos por aulas e minicursos, visitando escolas e outras universidades"
+
+albelha "Também organizamos caravanas para eventos ligados ao Software Livre, e até mesmo programas para a rádio Udesc!"
+
+albelha "Os cursos preparados pelo Colmeia abragem diversos temas, como Desenvolvimento em Arduino, de Aplicativos com MIT App Inventor"
+
+ct "Alberto, onde ele pode encontrar esses materiais?"
+
+albelha "Todo o nosso material aberto pode ser encontrado na nossa página do Github, dá uma olhada lá"
+
+eu "ok, só mais uma pergunta..."
+
+albelha "O que foi?"
+
+eu "Posso segurar o pinguim?"
+
+show albelha thinking
+
+albelha "Só por uns momentos..."
+
+eu "hehe"
+
+"Você segura o pinguim, ele é tão macio quanto você esperava"
+
+albelha "d-devolve"
+
+"Você percebe que passou do limite e devolve o pinguim"
+
+eu "Então é isso, obrigado pelas explicações"
+
+ct "Obrigado Alberto"
+
+albelha "Claro, até mais!"
+
+"Você e Catarina saem do Colmeia"
