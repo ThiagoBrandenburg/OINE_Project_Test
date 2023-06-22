@@ -4,3 +4,931 @@ Ren'Py 8.1.1.23060707
  
 
 Bootstrap to the start of init.init. took 0.04s
+Early init. took 0.00s
+Loader init. took 0.07s
+Loading error handling. took 0.03s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.05s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 436.27s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.03s
+Loading script. took 0.22s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 438.33s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.51s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 581.42s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.05s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2580.42s
+Early init. took 0.00s
+Loader init. took 0.07s
+Loading error handling. took 0.03s
+Loading script. took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(958, 539) drawable=(958, 539)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2588.91s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.24s
+Loading save slot metadata. took 0.05s
+Loading persistent. took 0.00s
+Running init code. took 0.08s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.80s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 1557, in execute
+    statement_name("scene")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 2975, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'dorbell-7.mp3'.
+
+While running game code:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'dorbell-7.mp3'.
+Resetting cache.
+Bootstrap to the start of init.init. took 2640.44s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.19s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 1557, in execute
+    statement_name("scene")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 2975, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'doorbell-7'.
+
+While running game code:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'doorbell-7'.
+Resetting cache.
+Bootstrap to the start of init.init. took 2681.34s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.13s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.04s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 549, in script
+    "Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'doorbell-7'.
+
+While running game code:
+  File "game/script.rpy", line 549, in script
+    "Você e Catarina entram no suporte e são recebidos e são imediatamente abordados por uma pessoa"
+OSError: Couldn't find file 'doorbell-7'.
+
+Full traceback:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 1557, in execute
+    statement_name("scene")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 2975, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'doorbell-7'.
+
+While running game code:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'doorbell-7'.
+
+Full traceback:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 1557, in execute
+    statement_name("scene")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 2975, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'doorbell-7'.
+
+While running game code:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'doorbell-7'.
+Resetting cache.
+Bootstrap to the start of init.init. took 2811.23s
+Early init. took 0.00s
+Loader init. took 0.07s
+Loading error handling. took 0.04s
+Loading script. took 0.24s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.09s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.11s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.81s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.08s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 1557, in execute
+    statement_name("scene")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 2975, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'doorbell-7'.
+
+While running game code:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'doorbell-7'.
+Resetting cache.
+Bootstrap to the start of init.init. took 2888.55s
+Early init. took 0.00s
+Loader init. took 0.05s
+Loading error handling. took 0.04s
+Loading script. took 0.36s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.06s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.10s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.70s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 1557, in execute
+    statement_name("scene")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\exports.py", line 1757, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 2975, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\pandi\Desktop\FACULDADE DUMP\renpy-8.1.0-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'doorbell-7.mp3'.
+
+While running game code:
+  File "game/script.rpy", line 547, in script
+    scene suporte dentro
+  File "renpy/common/000window.rpy", line 111, in _window_auto_callback
+    _window_hide(auto=True)
+  File "renpy/common/000window.rpy", line 101, in _window_hide
+    renpy.with_statement(trans)
+OSError: Couldn't find file 'doorbell-7.mp3'.
+Resetting cache.
+Bootstrap to the start of init.init. took 2933.58s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 2984.57s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3026.02s
+Early init. took 0.00s
+Loader init. took 0.03s
+Loading error handling. took 0.02s
+Loading script. took 0.18s
+Loading save slot metadata. took 0.03s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.02s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.42s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 3166.67s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object. took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'GeForce MX110/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 457.49'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
