@@ -92,3 +92,33 @@ ct "Com certeza. Às vezes, é mais uma questão de conveniência do que de qual
 eu "Suponho que sim..."
 
 "Voçe decide deixar suas aventuras gastronômicas para outra hora"
+
+#auditorio 
+
+scene auditorio
+show catarina happy ideia at right
+ct "Acabamos de chegar no auditório do bloco de Computação."
+
+eu "Nosso bloco tem um auditório? Parece um espaço interessante. O que costuma acontecer aqui?"
+
+ct "Esse auditório é o local onde ocorrem os colóquios, reuniões e palestras do departamento de Computação. É um espaço muito utilizado para compartilhar conhecimentos e promover discussões acadêmicas."
+
+eu "Entendi. É um ambiente importante para trocar ideias e aprender mais sobre a área de Computação."
+
+ct "Com certeza! Os colóquios são eventos regulares em que pesquisadores e professores convidados apresentam suas pesquisas e avanços em diferentes áreas da Computação. São oportunidades valiosas para nos mantermos atualizados e ampliar nosso conhecimento."
+
+eu "Isso é ótimo! Gosto da ideia de ter acesso a palestras e apresentações de especialistas na nossa área."
+
+ct "Além disso, o auditório também é utilizado para reuniões de departamento, onde são discutidas questões administrativas e organizacionais do bloco de Computação. É um espaço importante para tomadas de decisão e planejamento de projetos."
+
+eu "Entendi. É bom saber que temos um lugar apropriado para essas atividades, onde podemos nos envolver nas discussões e contribuir para o desenvolvimento do bloco."
+
+ct "Com certeza. E ocasionalmente, o auditório também é usado para sessões de cinema, onde podemos assistir a filmes relacionados à tecnologia e ciência, proporcionando momentos de descontração e entretenimento."
+
+eu "Ah, legal! Uma pausa para relaxar e assistir a um bom filme também é importante. É bom saber que o auditório oferece essa diversidade de atividades."
+
+ct "Sim, é uma forma de unir o aprendizado com momentos de lazer. Fique de olho nas programações para não perder nenhuma sessão de cinema ou outro evento interessante que possa ocorrer aqui."
+
+eu "Certamente! Vou ficar atento às divulgações e aproveitar ao máximo todas as oportunidades que o auditório do bloco de Computação oferece, seja para participar de colóquios, palestras, reuniões ou até mesmo relaxar assistindo a um filme."
+
+ct "Excelente! Vamos aproveitar ao máximo todas essas oportunidades e enriquecer nossa experiência acadêmica aqui no auditório do bloco de Computação."
