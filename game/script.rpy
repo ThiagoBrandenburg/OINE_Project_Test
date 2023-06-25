@@ -21,8 +21,12 @@ image catarina happy ideia:
     zoom 0.3
 
 image catarina angry:
-    "catarina serious standing.png"
+    "catarina angry.png"
     zoom 0.3    
+
+image catarina serious:
+    'catarina serious standing.png'
+    zoom 0.3
 
 image catarina felicidade:
     "catarina happy explaining.png"
@@ -46,22 +50,34 @@ image supochan proud:
     zoom 0.3
 
 #função
+image funfox greetings:
+    'funcaokun happy greetings.png'
+    zoom 0.36
+
 image funfox explaining:
-    "fox_explain.png"
-    zoom 0.3
+    "funcaokun happy.png"
+    zoom 0.36
 
 image funfox thinking:
-    "fox_think.png"
-    zoom 0.3
+    "funcaokun sad.png"
+    zoom 0.36
 
 #colmeia
 image albelha happy:
-    "abelha_happy.png"
-    zoom 0.3
+    "colmeiakun happy.png"
+    zoom 0.36
 
 image albelha thinking:
-    "abelha_think.png"
-    zoom 0.3
+    'colmeiakun angry.png'
+    zoom 0.36
+
+image albelha waiting:
+    'colmeiakun angry waiting.png'
+    zoom 0.36
+
+image pinguim:
+    'pinguim.png'
+    zoom 0.5
 
 #labP2D
 image helena normal:
@@ -69,7 +85,12 @@ image helena normal:
     zoom 0.36
 
 image helena vibes:
-    "helena_vibes.png"
+    'pd2chan sad.png'
+    zoom 0.36
+
+#Biblioteca
+image bia explaining:
+    "pergamunsama.png"
     zoom 0.36
 
 ##########################################################################################
@@ -369,15 +390,19 @@ label function:
 
     "Nos somos recebidos por um membro do laboratório."
 
-    show funfox explaining at left
+    show funfox greetings at left
 
     funfox "Hm? Oh, Catarina, seja bem vinda! E quem seria esse?"
 
     ct "Este aqui é um aluno novo da Computação, deseje boas vindas para ele"
 
+    show funfox explaining
+
     funfox "Olá, Meu nome é Afonso, e faço parte do Função, deseja conhecer o laboratório?"
 
     eu "Sim, o que vocês fazem no laboratório?"
+
+    show funfox thinking
 
     afonso "..."
 
@@ -388,8 +413,6 @@ label function:
     eu "P-Perdão, eu fiz uma pergunta que não devia?"
 
     afonso "Não, não há nada errado na sua pergunta, só preciso de um tempo para organizar essa resposta..."
-
-    show funfox thinking
 
     afonso "..."
 
@@ -415,6 +438,8 @@ label function:
 
     afonso "..."
 
+    show funfox thinking
+
     afonso "..queira você ou não."
 
     show catarina angry
@@ -424,6 +449,8 @@ label function:
     show funfox explaining
 
     afonso "Perdão."
+
+    show catarina serious
 
     afonso "Teriam mais alguma pergunta?"
 
@@ -445,9 +472,15 @@ label function:
 
     eu "Hmmmm, bem, quem é que está dormindo ali no canto?"
 
+    show funfox thinking
+
     afonso "Outra pergunta por favor"
 
     eu "errrr...quer saber? Talvez acho que é tudo por agora, vamos visitar outro laboratório, Catarina?"
+
+    show funfox greetings
+
+    show catarina happy ideia
 
     ct "Ah! Sim claro, vamos"
 
@@ -503,11 +536,17 @@ label colmeia:
 
     eu "hehe"
 
+    show albelha waiting
+    show pinguim
+
     "Você segura o pinguim, ele é tão macio quanto você esperava"
 
     albelha "d-devolve"
 
     "Você percebe que passou do limite e devolve o pinguim"
+
+    hide pinguim
+    show albelha thinking
 
     eu "Então é isso, obrigado pelas explicações"
 
@@ -573,7 +612,7 @@ label suporte:
 
 
 
-    play audio "doorbell-7.mp3"
+    play audio "audio/doorbell-7.mp3"
     
     scene suporte dentro
 
@@ -671,6 +710,10 @@ label suporte:
 label biblioteca:
     "Biblioteca"
     scene biblioteca
+
+    "Você e Catarina chegam na biblioteca, em uma das sessões encontram uma das pessoas que trabalha aqui"
+
+    show bia explaining
     bia "Olá! Bem-vindo à biblioteca universitária. O que você está achando do lugar?"
     #show bia at left
     show catarina happy ideia at right
