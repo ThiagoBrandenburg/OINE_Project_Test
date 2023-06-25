@@ -1,112 +1,40 @@
-Thu Jun 22 15:08:06 2023
+Thu Jun 22 18:11:28 2023
 Windows-10-10.0.19041
 Ren'Py 8.1.1.23060707
  
 
-Bootstrap to the start of init.init. took 0.04s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.03s
-Loading script. took 0.28s
-Loading save slot metadata. took 0.05s
+Bootstrap to the start of init.init. took 0.08s
+Early init. took 0.01s
+Loader init. took 0.14s
+Loading error handling. took 0.07s
+Loading script. took 0.47s
+Loading save slot metadata. took 0.09s
 Loading persistent. took 0.00s
-
-File "game/script.rpy", line 561: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    jump andar2
-    ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start. took 0.54s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 46.66s
-Early init. took 0.00s
-Loader init. took 0.06s
-Loading error handling. took 0.04s
-Loading script. took 0.39s
-Loading save slot metadata. took 0.05s
-Loading persistent. took 0.00s
-Running init code. took 0.14s
-Loading analysis data. took 0.03s
+Running init code. took 0.11s
+Loading analysis data. took 0.02s
 Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.06s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pandi\\AppData\\Roaming/RenPy/backups\\OINE_Project_Test':
-Dump and make backups. took 0.13s
+Dump and make backups. took 0.10s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.05s
+Initial gc. took 0.04s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.74s
+Creating interface object. took 0.85s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.05s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'GeForce MX110/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 457.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 3510.49s
-Early init. took 0.00s
-Loader init. took 0.05s
-Loading error handling. took 0.02s
-Loading script. took 0.16s
-Loading save slot metadata. took 0.04s
-Loading persistent. took 0.00s
-Running init code. took 0.05s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.04s
-Index archives took 0.00s
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.47s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.04s
+Load screen analysis took 0.05s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.09s
+Prepare screens took 0.12s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.05s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.08s
+Interface start. took 0.21s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -116,16 +44,5 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'GeForce MX110/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 457.49'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
-Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
