@@ -122,7 +122,7 @@ image bg andar1:
     "bg andar1.png"
 
 image biblioteca:
-    "biblioteca.jpg"
+    "Biblioteca.jpg"
     zoom 2.2
 
 image restaurante:
@@ -196,7 +196,7 @@ label start:
         
             eu "Nossa, como é difícil chegar aqui"
 
-            show catarina angry at right
+            show catarina serious at right
 
             ct "Pois é, nosso campus ainda tem problemas de acessibilidade, mas tenho certeza que algo está será feito a respeito"
 
@@ -216,7 +216,6 @@ label start:
 # label ficar:
 #     "Você ficou, big mistake"
 #     return
-
 
 label terreo:
     scene bg terreo
@@ -240,10 +239,6 @@ label terreo:
         
         "Para onde devo ir?"
 
-        "teste":
-            $ terreo = 0
-            jump terreo
-
         "Laboratório Função":
             $ anylab = 1
             jump function
@@ -256,16 +251,13 @@ label terreo:
             $ anylab = 1
             jump labp2d
 
-        "Primeiro Andar":
-            jump andar1
-        
-        "biblioteca":
+        "Biblioteca":
             jump biblioteca
             
         "RU":
             jump ru
         
-        "Como lab" if anylab == 1:
+        "Como participar de um laboratório?" if anylab == 1:
             eu "Como eu faço para me juntar a um laboratório?"
 
             ct "Os laboratórios abrem processos seletivos periodicamente, mas é interessante buscar serviços voluntários"
@@ -277,14 +269,16 @@ label terreo:
             eu "Vou começar a seguir vários laboratórios!"
             
             jump terreo
-    
+        
+        "Primeiro Andar":
+            jump andar1   
 
 label andar1:
     scene bg andar1
+    show catarina happy ideia at right
     "Este é o primeiro andar"
     if primeiro_andar == 0:
-        show catarina happy ideia
-        ct "primeira vez no primeiro ein fml parabéns woop"
+        ct "No primeiro andar temos algumas salas de aula, além da secretaria e as salas dos professores"
         $ primeiro_andar = 1
     menu:
         "Para onde devo ir?"
@@ -303,10 +297,10 @@ label andar1:
 
 label andar2:
     scene segundo_andar
+    show catarina happy ideia at right
     "Este é o Segundo Andar"
     if segundo_andar == 0:
-        show catarina happy ideia
-        ct "primeira vez no segundo ein fml parabéns woop"
+        ct "No segundo andar temos além de mais salas de aula, o auditório o bloco F e o suporte"
         $ segundo_andar = 1
     menu:
         "Para onde devo ir?"
@@ -713,7 +707,7 @@ label biblioteca:
 
     "Você e Catarina chegam na biblioteca, em uma das sessões encontram uma das pessoas que trabalha aqui"
 
-    show bia explaining
+    show bia explaining at left
     bia "Olá! Bem-vindo à biblioteca universitária. O que você está achando do lugar?"
     #show bia at left
     show catarina happy ideia at right
@@ -743,15 +737,14 @@ label biblioteca:
    
     menu:
         "Para onde devo ir?"
-        "restaurante":
+        "RU":
             jump ru
-        "terreo":
+        "Terreo":
             jump terreo
 
 label ru:
-    "ru"
     scene restaurante
-    ct"wowowowowowowo"
+    show catarina felicidade at right
     ct "Este o restaurante universitário" 
     ct "Ou RU para os mais íntimos"
 
@@ -760,13 +753,13 @@ label ru:
     ct "Às vezes, quando estou com pouco tempo entre as aulas ou quando o dinheiro está curto. É uma opção conveniente para matar a fome rapidamente."
 
     eu "Entendi. E como é a comida por aqui?"
-
+    show catarina serious
     ct "Bem, vamos dizer que não é a melhor culinária que já provei, mas pelo menos enche a barriga."
 
     eu "(Uhh. Pelo menos sei o que esperar)."   
     
     eu "E quanto aos preços, são realmente mais em conta que no shopping?"
-
+    show catarina happy ideia
     ct "Sim, os preços são bem mais baratos em comparação aos restaurantes próximos. É uma opção econômica para os estudantes, especialmente quando o dinheiro está apertado."
 
     eu "Já é algo então."
