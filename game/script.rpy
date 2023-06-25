@@ -204,7 +204,7 @@ label terreo:
     if terreo == 0:
         show catarina happy ideia
         
-        ct "Este é o Térreo do Bloco L"
+        ct "Este é o Térreo do Bloco F"
 
         ct "No terreo, além das salas de aula e do ambiente de estudo, temos a maioria dos laboratórios de pesquisa e extensão"
 
