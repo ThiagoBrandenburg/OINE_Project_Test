@@ -32,6 +32,10 @@ image catarina felicidade:
     "catarina happy explaining.png"
     zoom 0.3  
 
+image catarina surprised:
+    "catarina surprised.png"
+    zoom 0.3
+
 #suporte
 image supochan angry:
     "supochan angry.png"
