@@ -574,7 +574,7 @@ label auditorio:
 
     eu "Nosso bloco tem um auditório? Parece um espaço interessante. O que costuma acontecer aqui?"
 
-    ct "Esse auditório é o local onde ocorrem os colóquios, reuniões e palestras do departamento de Computação. É um espaço muito utilizado para compartilhar conhecimentos e promover discussões acadêmicas."
+    ct "Esse auditório é o local onde ocorrem os colóquios, eventos e  palestras do departamento de Computação. É um espaço muito utilizado para compartilhar conhecimentos e promover discussões acadêmicas."
 
     eu "Entendi. É um ambiente importante para trocar ideias e aprender mais sobre a área de Computação."
 
@@ -600,11 +600,11 @@ label auditorio:
 label suporte:
     scene suporte fora
     show catarina felicidade at left
-    ct "Ah! O Suporte é ui neste lugar é muito útil para o Departamento, podemos falar com alguém aqui dentro"
+    ct "Ah! O Suporte é um neste lugar muito útil para o Departamento, podemos falar com alguém aqui dentro"
 
     "Vocês entram no suporte e se deparam com uma sala de recepção com uma campainha"
 
-    eu "Hmmm, acho que devemos apertar a campainha para sermo atendidos"
+    eu "Hmmm, acho que devemos apertar a campainha para sermos atendidos"
 
     "Você aperta a campainha"
 
